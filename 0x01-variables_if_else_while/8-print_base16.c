@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - Prints a hexadecimal string
+ *  main - Prints a hexadecimal string
  *
- * Return: Always (Success)
+ *  Return: Always (Success)
  */
 int main(void)
 {
 	char c;
-	
+
 	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
@@ -23,4 +23,3 @@ int main(void)
 
 	return (0);
 }
-
